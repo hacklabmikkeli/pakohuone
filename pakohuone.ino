@@ -33,24 +33,42 @@ TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
 
 int currentLevel = 0;
 
-char images[2][15] = {
-    "/naama.bmp",
-    "/kala.bmp"
+char images[8][15] = {
+    "/nuuska.bmp",
+    "/nuuska2.bmp",
+    "/tupakka.bmp",
+    "/nakki.bmp",
+    "/satka.bmp",
+    "/purkka.bmp",
+    "/laastari.bmp",
+    "/spitbucket.bmp"
 };
 
 char *buttons[10][10] = {
-    {"Kylla", "Ei"},
-    {"Kissa", "Koira", "Kala"}
+    {"T-pussi", "Nuuska", "Wunderbaum"},
+    {"Huumeruisku", "Laksatiiviannostelija", "Nuuskanasetin"},
+    {"Tupakka", "Wienernugaavohveli", "Korvakaivuri"},
+    {"Hacklabin avoimet ovet", "Kikkula", "Nakki"},
+    {"Kannabiksen käärimiseen", "Tupakan käärimiseen", "Manaamiseen"},
+    {"Nikotiinipurukumi", "Laksatiivia", "Karkkia"},
+    {"Öylätti", "Frisbee", "Nikotiinilaastari"},
+    {"Sylkysanko", "Kenttä-wc", "Oksennussanko"},
 };
 
-char questions[2][25] = {
-    "Onko kuvassa naama?",
-    "Mika elain on kuvassa?"
+char questions[8][25] = {
+    "Mikä tämä on?",
+    "Entäs tämä?",
+    "No entäpäs tämä?",
+    "Mikä tämä herkku on?",
+    "Mihin näitä käytetään?",
+    "Mitäs??",
+    "Mikäs lätyskä tässä on?",
+    "MIKÄ TUO ON?"
 };
 
-const int numberOfButtons[2] = {2, 3};
-const int answers[2] = {0, 2};
-const int maxLevel = 2;
+const int numberOfButtons[8] = {3, 3, 3, 3, 3, 3, 3, 3};
+const int answers[8] = {1, 2, 0, 2, 1, 0, 2, 0};
+const int maxLevel = 8;
 
 Adafruit_GFX_Button answerButtons[4];
 
