@@ -1,1 +1,37 @@
-Tämä on README tiedosto, kirjoitan tähän jotain jossain vaiheessa.
+                 __'                     ___                                      _             _           
+          ,.·:'´::::::::`'·-.          .:´/::::;'`;                        ,·´/:::::'`:,   ,:´/::::'`:,'      
+        '/::::::::::::::::::';        /::/::::/:::/'i                     '/  /:::::::::'`·/::/::::::::/'\     
+       /;:· '´ ¯¯  `' ·-:::/'       /·´¯¯¯'`;/::'i'                      /,·'´ ¯¯'`·;:::/:;·´ ¯ '`·;/:::i   
+     /.'´      _         ';/'      i          'i::'¦                    /            '`;':/            \:::';  
+   ,:     ,:'´::;'`·.,_.·'´.,      ';          ¦::;                    ,'               `'            ';:::i°
+  /     /':::::/;::::_::::::::;    ;         ;::;  °                  ,'                              ;::i'
+,'     ;':::::'/·´¯     ¯'`·;:::¦   ';        ;:,'_ ,.-·~^; °        ;'       ,^,         ,:^,         'i::;°
+'i     ';::::::'\             ';:';    ';      ';:/:::::::::/::i'  'i        ;:::\       ;/   ',       'i:;' 
+ ;      '`·:;:::::`'*;:'´      |/'     ,:      '/::;:-·~^';::'/'  'i       'i::/  \     /      ;        ;/   
+  \          '`*^*'´         /'     i´        ¯          'i/ '   ;      'i:/     `*'´         'i       ;/ °  
+    `·.,               ,.-·´        '`·,_          _ , ·'´     '`.    ,'                       '.     /      
+         '`*^~·~^*'´                   ¯ `'*'´ ¯     '           `*´                           `'*'´        
+                                                                                                  
+---------------------------------------Pakohuonepeli -Puzzle Estery RY:lle------------------------------------
+-
+-     Digitaalinen/fyysinen puzzle esittää kysymyksiä käyttäjälle väittämä pohjalta. Käyttäjän on saatava
+-     kysymykset oikein saadakseen avainkoodin seuraavaan lukkoon. Fyysinen puzzle on parhaimmillaan
+-     holhoava ja saarnaava, eli siis parasta paskaa mitä voi odottaa opettavaiselta peliltä. 
+-
+-     1.0
+-         - Kysymykset on koodattu suoraan koodiin ja muuntaminen edellyttää koodin muokkaamisen käsin ja 
+-           työntämisen arduinoon IDE ohjelmiston kautta.
+-         - Arduino UNO:n muisti ei riitä puzzlen pyörittämiseen, toistaiseksi aivan turha jollei MEGA ole
+-           käytössä. Kysymysten rajoittaminen 2 kysymykseen pitää laitteen stabiilina, mutta siitä ei ole
+-           kauheasti iloa kenellekkään.
+-
+-     2.0 (tulossa)
+-
+-         - Arduino hakisi kysymykset .CSV tiedostosta omista solukoistaan
+-         - Audio MP3 decoderi kikkula tai muu ripuli kylkeen
+-         - Arduino MEGA pohjaksi isomman muistin vuoksi
+-
+-
+-
+-                                                     C2018
+--------------------------------------------------------------------------------------------------------------
