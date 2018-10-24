@@ -32,8 +32,8 @@ const int XP=6,XM=A2,YP=A1,YM=7;
 TouchScreen ts = TouchScreen(XP, YP, XM, YM, 300);
 
 int currentLevel = 0;
-
-char images[8][15] = {
+// Muokkaa [8] tilalle määrä, kuinka monta kysymystä/kuvaa arduino esittää
+char images[8][15] = { 
     "/nuuska.bmp",
     "/nuuska2.bmp",
     "/tupakka.bmp",
@@ -54,7 +54,7 @@ char *buttons[10][10] = {
     {"Öylätti", "Frisbee", "Nikotiinilaastari"},
     {"Sylkysanko", "Kenttä-wc", "Oksennussanko"},
 };
-
+// Muokkaa [8] tilalle määrä, kuinka monta kysymystä/kuvaa arduino esittää
 char questions[8][25] = {
     "Mikä tämä on?",
     "Entäs tämä?",
@@ -65,7 +65,10 @@ char questions[8][25] = {
     "Mikäs lätyskä tässä on?",
     "MIKÄ TUO ON?"
 };
-
+// Muokkaa [8] tilalle määrä, kuinka monta kysymystä/kuvaa arduino esittää
+// maxLevel = kysymysten määrä
+// numberOfButtons[8] = jokaisen kysymyksen painikkeiden määrä 1-3
+// answers[8] = kysymyksien määrä ja vastaukset 0-2 (esim. 0,1,2)
 const int numberOfButtons[8] = {3, 3, 3, 3, 3, 3, 3, 3};
 const int answers[8] = {1, 2, 0, 2, 1, 0, 2, 0};
 const int maxLevel = 8;
